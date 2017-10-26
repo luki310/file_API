@@ -21,12 +21,38 @@
     </div>
   </div>
 
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div id="output" class="col-12">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <h4>Wybierz plik</h4>
+          <form>
+            <div class="form-group">
+              <input type="file" class="form-control" id="fileInput" name="fileInput">
+            </div>
+          </form>
+        </div>
+        <div class="col-8">
+          <h4>Wynik konwersji</h4>
+          <div >
+            <textarea class="resolt"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <footer class="footer">
     <nav class="navbar fixed-bottom navbar-dark bg-dark">
       <span class="navbar-brand center">Created by: Łukasz Kuczek</span>
     </nav>
   </footer>
 
+  <script src="https://cdn.rawgit.com/showdownjs/showdown/develop/dist/showdown.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>

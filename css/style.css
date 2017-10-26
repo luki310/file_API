@@ -17,3 +17,10 @@ body {
 .footer > nav > span {
     font-size: 9px;
 }
+
+.resolt {
+    white-space: pre-wrap;
+    width: 100%;
+    min-height: 400px;
+    padding-bottom: 50px;
+}
